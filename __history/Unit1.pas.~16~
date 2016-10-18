@@ -1,0 +1,43 @@
+unit Unit1;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Поток2;
+
+type
+  TForm1 = class(TForm)
+    Label1: TLabel;
+    Start: TButton;
+    Memo1: TMemo;
+    Stop: TButton;
+    procedure StartClick(Sender: TObject);
+    procedure StopClick(Sender: TObject);
+  private
+    { Private declarations }
+    co : Potok;
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.StartClick(Sender: TObject);
+begin
+ co:=Potok.Create(true);
+ co.Resume;
+ co.Priority:=tpLower;
+end;
+
+procedure TForm1.StopClick(Sender: TObject);
+begin
+  co.Suspend;
+end;
+
+end.

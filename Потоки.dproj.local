@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.983,C:\Users\Данила\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Данила\Documents\Embarcadero\Studio\Projects\Работа с потоками\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.983,C:\Users\Данила\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Данила\Documents\Embarcadero\Studio\Projects\Работа с потоками\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.867,=C:\Users\Данила\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.431,C:\Users\Данила\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Данила\Documents\Embarcadero\Studio\Projects\Работа с потоками\Потоки.dproj</Transaction>
+    <Transaction>2016.10.07 11:56:21.182,=C:\Users\Данила\Documents\Embarcadero\Studio\Projects\Работа с потоками\Unit2.pas</Transaction>
+    <Transaction>2016.10.07 12:07:19.280,C:\Users\Данила\Documents\Embarcadero\Studio\Projects\Работа с потоками\Поток2.pas=C:\Users\Данила\Documents\Embarcadero\Studio\Projects\Работа с потоками\Unit2.pas</Transaction>
+  </Transactions>
+</BorlandProject>
